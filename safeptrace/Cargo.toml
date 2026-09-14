@@ -9,7 +9,7 @@ repository = "https://github.com/facebookexperimental/reverie"
 license = "BSD-2-Clause"
 
 [dependencies]
-bitflags = { version = "2.13.1", features = ["serde", "std"], default-features = false }
+bitflags = { version = "2.13.2", features = ["serde", "std"], default-features = false }
 futures = { version = "0.3.34", features = ["async-await", "compat"] }
 libc = "0.2.186"
 nix = { version = "0.31.3", features = ["dir", "event", "hostname", "inotify", "ioctl", "mman", "mount", "net", "poll", "ptrace", "reboot", "resource", "sched", "signal", "term", "time", "user", "zerocopy"] }
